@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="border-2 border-black shadow-lg shadow-black w-96 mx-auto p-6 mt-56 bg-gradient-to-tr from-blue-300 to-blue-800">
+            <h1 class="text-5xl text-center text-white font-['Rubik_Moonrocks']">Tic Tac Toe</h1>
+            <div class="grid grid-cols-3 grid-rows-3 gap-2 w-[250px] mx-auto mt-6">
+                <div id="b1" class="box"></div>
+                <div id="b2" class="box"></div>
+                <div id="b3" class="box"></div>
+                <div id="b4" class="box"></div>
+                <div id="b5" class="box"></div>
+                <div id="b6" class="box"></div>
+                <div id="b7" class="box"></div>
+                <div id="b8" class="box"></div>
+                <div id="b9" class="box"></div>
+            </div>
+            <div id="score" class="mt-8 text-white text-xl">
+                <p class="font-semibold text-2xl text-white mb-4 text-center">C'est au tour de : Joueur <span id="player">1</span></p>
+                <p class="ml-6">Score Joueur 1 : <span id="score1">0</span></p>
+                <p class="ml-6">Score Joueur 2 : <span id="score2">0</span></p>
+                <p class="ml-6">Matchs nuls : <span id="scoreNull">0</span></p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="../index.js"></script>
+</body>
+</html>

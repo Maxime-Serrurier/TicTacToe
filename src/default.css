@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Rubik+Wet+Paint&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.box {
+    @apply font-['Rubik_Wet_Paint'] border border-slate-200 rounded-lg shadow-md shadow-slate-300 p-4 w-20 h-20 text-4xl text-center text-white cursor-pointer;
+}
