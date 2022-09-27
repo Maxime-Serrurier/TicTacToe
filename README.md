@@ -1,2 +1,2 @@
 # TicTacToe
-Jeux du morpion.
+Jeu du morpion.
